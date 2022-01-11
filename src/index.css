@@ -36,33 +36,3 @@ button:hover {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   /* Lowering the shadow */
 }
-
-.arrow-btn {
-  border: 0;
-  background-color: transparent;
-}
-
-.arrow-btns-container {
-  align-items: flex-end;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.arrow-btn-wrapper {
-  display: contents;
-  width: fit-content;
-  width: -moz-fit-content
-}
-
-.arrow-btn-right {
-  margin-left: auto;
-}
-
-@media (min-width: 641px) {
-  .arrow-btns-container {
-    width: 50%;
-    align-items: flex-end;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-}

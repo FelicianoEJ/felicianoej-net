@@ -1,0 +1,33 @@
+.arrow-btn {
+    border: 0;
+    background-color: transparent;
+}
+
+.arrow-btns-container {
+    align-items: flex-end;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-btn-wrapper {
+    display: contents;
+    width: fit-content;
+    width: -moz-fit-content
+}
+
+.arrow-btn-right {
+    margin-left: auto;
+}
+
+@media (min-width: 641px) {
+    .arrow-btns-container {
+        width: 30%;
+        align-items: flex-end;
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
