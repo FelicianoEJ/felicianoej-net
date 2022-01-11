@@ -1,7 +1,7 @@
 {
   "short_name": "FelicianoEJ",
   "name": "FelicianoEJ",
-  "description": "Calm waves never made a skilled sailor.",
+  "description": "Smooth seas never made a skilled sailor",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
@@ -42,6 +42,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#cdcdcd",
-  "background_color": "#000000"
+  "theme_color": "#9b8248",
+  "background_color": "#141414"
 }

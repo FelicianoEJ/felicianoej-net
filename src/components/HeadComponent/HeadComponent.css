@@ -1,10 +1,12 @@
 #alias-content {
     padding-top: 15%;
     padding-left: 15%;
+    padding-right: 15%;
 }
 
 .text {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 300;
+    margin-bottom: 5px;
 }

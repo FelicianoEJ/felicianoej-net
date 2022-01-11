@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 
-html { 
+html {
   height: 100%;
 }
 
@@ -16,4 +16,53 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.button {
+  box-shadow: 0 5px #999;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.123);
+}
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+.arrow-btn {
+  border: 0;
+  background-color: transparent;
+}
+
+.arrow-btns-container {
+  align-items: flex-end;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.arrow-btn-wrapper {
+  display: contents;
+  width: fit-content;
+  width: -moz-fit-content
+}
+
+.arrow-btn-right {
+  margin-left: auto;
+}
+
+@media (min-width: 641px) {
+  .arrow-btns-container {
+    width: 50%;
+    align-items: flex-end;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
