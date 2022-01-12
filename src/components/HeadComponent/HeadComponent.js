@@ -6,19 +6,19 @@ import { FileCode, ExperimentOne, FlightAirflow } from '@icon-park/react'
 const HeadComponent = () => {
   return (
     <Slide>
-      <div id="alias-content">
+      <div className="content">
         <h1 className="text">Hi,</h1>
         <h2 className="text">I am Emilio a.k.a FelicianoEJ</h2>
         <br />
         <h2 className="text">
-          <FileCode theme="outline" size="20" fill="#fff" strokeWidth={3} />
+          <FileCode theme="outline" size="20" fill="#e8e6e3" strokeWidth={3} />
           &nbsp; Software Engineer
         </h2>
         <h2 className="text">
           <ExperimentOne
             theme="outline"
             size="20"
-            fill="#fff"
+            fill="#e8e6e3"
             strokeWidth={3}
           />
           &nbsp; Test Lead
@@ -27,7 +27,7 @@ const HeadComponent = () => {
           <FlightAirflow
             theme="outline"
             size="20"
-            fill="#fff"
+            fill="#e8e6e3"
             strokeWidth={3}
           />
           &nbsp; Pilot

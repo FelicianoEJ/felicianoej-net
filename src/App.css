@@ -1,3 +1,19 @@
+.content-container {
+    padding-top: 15%;
+}
+
+.content {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
 .arrow-btn {
     border: 0;
     background-color: transparent;
@@ -19,6 +35,13 @@
 
 .arrow-btn-right {
     margin-left: auto;
+}
+
+.social-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    padding-bottom: 1em;
 }
 
 @media (min-width: 641px) {
