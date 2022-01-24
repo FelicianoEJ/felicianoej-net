@@ -6,7 +6,7 @@ import { Github } from '@icon-park/react'
 const SocialComponent = () => {
   const githubUrl = 'https://github.com/FelicianoEJ'
   return (
-    <Fade>
+    <Fade className="mid">
       <a href={githubUrl}>
         <Github theme="outline" size="36" fill="#e8e6e3" strokeWidth={3} />
       </a>

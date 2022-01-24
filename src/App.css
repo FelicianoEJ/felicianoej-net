@@ -12,7 +12,8 @@
     margin-bottom: 0;
     font-weight: 300;
     margin-bottom: 5px;
-}
+    font-size: small;
+} 
 
 .arrow-btn {
     border: 0;
@@ -52,5 +53,12 @@
         padding-right: 15%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .text {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 300;
+        margin-bottom: 5px;
     }
 }
