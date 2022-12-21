@@ -6,7 +6,7 @@ const PilotComponent = () => {
   return (
     <Slide>
       <div className="content">
-        <h1 className="text">I&apos;m also a student Pilot!</h1>
+        <h1 className="text">I&apos;m also a Pilot!</h1>
       </div>
       <br />
     </Slide>

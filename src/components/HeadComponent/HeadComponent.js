@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeadComponent.css'
 import { Slide } from 'react-awesome-reveal'
-import { FileCode, ExperimentOne, FlightAirflow } from '@icon-park/react'
+import { FileCode, FlightAirflow } from '@icon-park/react'
 
 const HeadComponent = () => {
   return (
@@ -13,15 +13,6 @@ const HeadComponent = () => {
         <h2 className="text">
           <FileCode theme="outline" size="20" fill="#e8e6e3" strokeWidth={3} />
           &nbsp; Software Engineer
-        </h2>
-        <h2 className="text">
-          <ExperimentOne
-            theme="outline"
-            size="20"
-            fill="#e8e6e3"
-            strokeWidth={3}
-          />
-          &nbsp; Test Lead
         </h2>
         <h2 className="text">
           <FlightAirflow
