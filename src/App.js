@@ -13,19 +13,18 @@ const App = () => {
   const [content, setContent] = useState(<HeadComponent />)
   const [vantaEffect, setVantaEffect] = useState(0)
 
-  const myRef = useRef(null)
+  const rootRef = useRef(document.getElementById('root'))
 
   // gold metallic color: 0xd4af37,
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
         Net({
-          el: myRef.current,
+          el: rootRef.current,
           mouseControls: true,
           touchControls: true,
           gyroControls: true,
-          minHeight: window.screen.height,
-          minWidth: 200.0,
+          minHeight: document.body.clientHeight,
           scale: 1.0,
           scaleMobile: 2.0,
           color: 0x9b8248,
@@ -59,42 +58,40 @@ const App = () => {
   }, [page])
 
   return (
-    <div ref={myRef}>
-      <div className="content-container">
-        {content}
-        <div className="arrow-btns-container">
-          <div className="arrow-btn-wrapper">
-            <button
-              hidden={page === 0}
-              className="btn arrow-btn"
-              onClick={() => setPage(page - 1)}
-            >
-              <ArrowLeft
-                theme="outline"
-                size="32"
-                fill="#fff"
-                strokeWidth={3}
-              />
-            </button>
-          </div>
-          <div className="arrow-btn-wrapper">
-            <button
-              hidden={page === 3}
-              className="btn arrow-btn"
-              onClick={() => setPage(page + 1)}
-            >
-              <ArrowRight
-                theme="outline"
-                size="32"
-                fill="#fff"
-                strokeWidth={3}
-              />
-            </button>
-          </div>
+    <div className="container">
+      {content}
+      <div className="arrow-btns-container">
+        <div className="arrow-btn-wrapper">
+          <button
+            hidden={page === 0}
+            className="btn arrow-btn"
+            onClick={() => setPage(page - 1)}
+          >
+            <ArrowLeft
+              theme="outline"
+              size="32"
+              fill="#fff"
+              strokeWidth={3}
+            />
+          </button>
         </div>
-        <div className="social-container">
-          <SocialComponent />
+        <div className="arrow-btn-wrapper">
+          <button
+            hidden={page === 3}
+            className="btn arrow-btn"
+            onClick={() => setPage(page + 1)}
+          >
+            <ArrowRight
+              theme="outline"
+              size="32"
+              fill="#fff"
+              strokeWidth={3}
+            />
+          </button>
         </div>
+      </div>
+      <div className="social-container">
+        <SocialComponent />
       </div>
     </div>
   )

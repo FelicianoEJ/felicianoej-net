@@ -5,19 +5,47 @@ import { Slide } from 'react-awesome-reveal'
 const SkillsComponent = () => {
   return (
     <Slide>
-      <div className="content">
-        <h3 className="text">I write literature in</h3>
+      <div className="skills-content">
+        <h3 className="text">Skills and technical expertise.</h3>
+        <br/>
+        <h2 className="text">Languages:</h2>
         <ul>
-          <li className="text">React (JS)</li>
-          <li className="text">DotNet (C#)</li>
-          <ul>
-            <li className="text">Aspnetcore</li>
-            <li className="text">EntityFramework</li>
-            <li className="text">Blazor</li>
-          </ul>
-          <li className="text">Html and CSS</li>
+          <li>JavaScript</li>
+          <li>Html</li>
+          <li>CSS</li>
+          <li>C#</li>
+          <li>SQL</li>
         </ul>
-        <h3 className="text">And few more!</h3>
+        <h2 className="text">Platforms, Framworks and libraries:</h2>
+        <ul>
+          <li>
+            Microsoft .NET
+            <ul>
+              <li>Aspnetcore (MVC and minimal-api)</li>
+              <li>EntityFramework</li>
+              <li>Blazor</li>
+            </ul>
+          </li>
+          <li>Dapper</li>
+          <li>React</li>
+        </ul>
+        <h2 className="text">Operating Systems:</h2>
+        <ul>
+          <li>Microsoft Windows 10 & 11</li>
+          <li>Linux</li>
+        </ul>
+        <h2 className="text">Cloud Services:</h2>
+        <ul>
+          <li>Azure</li>
+          <li>AWS</li>
+        </ul>
+        <h2 className="text">Techs:</h2>
+        <ul>
+          <li>GraphQL</li>
+          <li>MQTT</li>
+          <li>Push Notification Services (PNS)</li>
+        </ul>
+        <h3 className="text">And some more stuff!</h3>
       </div>
       <br />
     </Slide>

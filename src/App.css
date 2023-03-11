@@ -1,18 +1,27 @@
-.content-container {
-    padding-top: 15%;
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .content {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-top: 15% !important;
+}
+
+.skills-content {
+    padding-top: 5% !important;
+}
+
+.skill-content {
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .text {
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 5px;
-    font-size: medium;
+    font-size: large;
 } 
 
 .arrow-btn {
@@ -22,8 +31,8 @@
 
 .arrow-btns-container {
     align-items: flex-end;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
     display: flex;
     justify-content: space-between;
 }
@@ -58,7 +67,7 @@
     .text {
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 300;
+        font-weight: 400;
         margin-bottom: 5px;
         font-size: larger;
     }
