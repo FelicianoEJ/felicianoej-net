@@ -3,6 +3,7 @@ import Net from 'vanta/dist/vanta.net.min'
 import HeadComponent from './components/HeadComponent/HeadComponent'
 import SoftEngineerComponent from './components/SoftEngineerComponent/SoftEngineerComponent'
 import SkillsComponent from './components/SkillsComponent/SkillsComponent'
+import SkillsComponentContinuation from './components/SkillsComponentContinuation/SkillsComponentContinuation'
 import SocialComponent from './components/SocialComponent/SocialComponent'
 import PilotComponent from './components/PilotComponent/PilotComponent'
 import { ArrowLeft, ArrowRight } from '@icon-park/react'
@@ -52,6 +53,9 @@ const App = () => {
         setContent(<SkillsComponent />)
         break
       case 3:
+        setContent(<SkillsComponentContinuation />)
+        break
+      case 4:
         setContent(<PilotComponent />)
         break
     }
@@ -77,7 +81,7 @@ const App = () => {
         </div>
         <div className="arrow-btn-wrapper">
           <button
-            hidden={page === 3}
+            hidden={page === 4}
             className="btn arrow-btn"
             onClick={() => setPage(page + 1)}
           >
