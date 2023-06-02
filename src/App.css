@@ -70,3 +70,10 @@
         font-size: larger;
     }
 }
+
+@media (max-width: 640px) {
+    .container {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+}

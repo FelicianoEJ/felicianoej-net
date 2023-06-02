@@ -17,7 +17,7 @@ const SkillsComponent = () => {
             <li>C#</li>
             <li>SQL</li>
           </ul>
-          <h2 className="text">Platforms, Framworks and libraries:</h2>
+          <h2 className="text">Platforms, Frameworks and libraries:</h2>
           <ul>
             <li>
               Microsoft .NET
