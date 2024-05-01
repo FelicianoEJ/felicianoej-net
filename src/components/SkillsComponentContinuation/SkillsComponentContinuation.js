@@ -24,6 +24,7 @@ const SkillsComponentContinuation = () => {
             <li>GraphQL</li>
             <li>MQTT</li>
             <li>Push Notification Services (PNS)</li>
+            <li>IDP</li>
           </ul>
           <h3 className="text">And some more stuff!</h3>
         </div>
