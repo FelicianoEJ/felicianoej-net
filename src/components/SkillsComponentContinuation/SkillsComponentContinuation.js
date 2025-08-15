@@ -8,23 +8,38 @@ const SkillsComponentContinuation = () => {
       <div className="skills-content">
         <div className="text-card">
           <h3 className="text">Skills and technical expertise continuation.</h3>
-          <br/>
-          <h2 className="text">Operating Systems:</h2>
+          <h2 className="text">Tools:</h2>
           <ul>
-            <li>Microsoft Windows 10 & 11</li>
-            <li>Linux</li>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Postman</li>
+            <li>Figma</li>
+            <li>ServiceNow</li>
           </ul>
-          <h2 className="text">Cloud Services:</h2>
+          <h2 className="text">Frameworks & Libraries:</h2>
           <ul>
-            <li>Azure</li>
-            <li>AWS</li>
+            <li>
+              Microsoft .NET
+              <ul>
+                <li>AspNet Core (MVC and minimal-api)</li>
+                <li>EntityFramework</li>
+                <li>Blazor</li>
+              </ul>
+            </li>
+            <li>Dapper</li>
+            <li>React</li>
+            <li>Express.js & Nest.js</li>
+            <li>Vue.js</li>
+            <li>jQuery</li>
+            <li>Spring Boot</li>
           </ul>
           <h2 className="text">Techs:</h2>
           <ul>
             <li>GraphQL</li>
             <li>MQTT</li>
             <li>Push Notification Services (PNS)</li>
-            <li>IDP</li>
+            <li>Identity Provider & Identity Access Management (Auth 0, Okta, EntraID and Keycloak)</li>
           </ul>
           <h3 className="text">And some more stuff!</h3>
         </div>
