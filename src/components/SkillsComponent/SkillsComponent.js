@@ -26,13 +26,15 @@ const SkillsComponent = () => {
           <h2 className="text">Platforms:</h2>
           <ul>
             <li>Windows</li>
-            <li>Linux (Debian)</li>
+            <li>Linux</li>
           </ul>
           <h2 className="text">Cloud Platforms:</h2>
+          <p>In parenthesis are services wich I haved closely work with.</p>
           <ul>
-            <li>Azure</li>
             <li>CI/CD (GitHub Actions, Azure DevOps)</li>
-            <li>Amazon Web Services (AWS)</li>
+            <li>Azure (Entra, Functions, CosmosDB, Managed SQL, App Service, AKS, AKV, AppConfig, etc.)</li>
+            <li>Amazon Web Services (IAM, Lightsail, Amplify, Route53, EC2, S3, Lambda, AppConfig)</li>
+            <li>Google Cloud Platform (Cloud Run, Cloud Functions, Contact Center AI)</li>
           </ul>
         </div>
       </div>
